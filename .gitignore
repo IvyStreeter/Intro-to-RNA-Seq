@@ -15,6 +15,15 @@
 # Output files from R CMD build
 /*.tar.gz
 
+# Any fast files of fast references
+*fastq.gz
+*fq.gz
+*fq
+*fasta.gz
+*fasta
+*fa.gz
+*fa
+
 # Output files from R CMD check
 /*.Rcheck/
 
@@ -47,3 +56,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+rsconnect/
+.Rproj.user
+Inst/doc
